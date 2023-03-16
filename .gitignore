@@ -1,0 +1,4 @@
+*.idea
+*python.iml
+/k8s/service-account-token
+/k8s/kubeconfig.yaml
