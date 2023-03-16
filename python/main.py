@@ -19,7 +19,7 @@ def get_time_log(pod_data, log_format, age):
 
 
 if __name__ == '__main__':
-    config.load_config()
+    config.load_incluster_config()
     v1 = client.CoreV1Api()
     list_pod = v1.list_namespaced_pod(namespace="default")
 
